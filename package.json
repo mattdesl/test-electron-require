@@ -1,0 +1,29 @@
+{
+  "name": "test-electron-require",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "electron-prebuilt": "^0.30.2",
+    "serves": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron lib/server.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/test-electron-require.git"
+  },
+  "homepage": "https://github.com/mattdesl/test-electron-require",
+  "bugs": {
+    "url": "https://github.com/mattdesl/test-electron-require/issues"
+  }
+}
